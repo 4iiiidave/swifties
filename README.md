@@ -1,4 +1,6 @@
-# html-table-to-json
+# swifties
+
+## html-table-to-json
 
 Read markup containing an HTML table from `stdin`, write data in `JSON` format to `stdout`.
 
