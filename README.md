@@ -6,3 +6,5 @@ Read markup containing an HTML table from `stdin`, write data in `JSON` format t
 swift build && swift run
 swift build -c release
 ```
+
+built on top of [SwiftSoup](https://github.com/scinfu/SwiftSoup)
