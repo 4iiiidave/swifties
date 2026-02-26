@@ -6,7 +6,7 @@ Simple CLI utilities written in [Swift](https://www.swift.org).
 ./build.sh
 ```
 
-## capitalize
+## case-sentence
 
 Capitalize the first letter of each word read from `stdin`.
 
@@ -38,6 +38,6 @@ Pretty-print `JSON` read from `stdin`.
 
 Reverse a `JSON` array read from `stdin`.
 
-## slugify
+## case-slug
 
 `abc-def-ghi`.
