@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
   name: "case-slug",
+  platforms: [.macOS(.v10_15)],
   targets: [
     .executableTarget(
       name: "case-slug"
