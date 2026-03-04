@@ -37,6 +37,10 @@ Built on top of [SwiftCSV](https://github.com/swiftcsv/SwiftCSV).
 
 Print current date in [ISO8601](https://www.iso.org/iso-8601-date-and-time-format.html) format
 
+### date-mod
+
+Modify a date (default: `now`) by a number of seconds, minutes, hours, days, or weeks.
+
 ### date-ymd
 
 Date in `YYYY-MM-DD`, optional first argument as separator
@@ -83,5 +87,5 @@ Reverse a `JSON` array read from `stdin`.
 
 ## TODO
 
-* date-add
+* date-ymd: option to read date from `stdin`
 * string-trim

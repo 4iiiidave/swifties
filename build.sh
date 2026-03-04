@@ -12,7 +12,7 @@ for dir in */; do
     NAME=`basename $dir`
     cd "$dir" || exit
     echo "👧🏼 $NAME"
-    swift build -c release 1> /dev/null
+    swift build -c release # 1> /dev/null
     cp .build/release/$NAME ~/bin
   )
 done
