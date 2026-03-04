@@ -23,10 +23,6 @@ Capitalize the first letter of each sentence read from `stdin`.
 
 `abc-def-ghi`.
 
-### case-upper
-
-Upper-case `stdin` or command-line arguments.
-
 ### csv-to-json
 
 Read CSV from `stdin`, print JSON to `stdout`.
@@ -47,7 +43,7 @@ Date in `YYYY-MM-DD`, optional first argument as separator
 
 ### exif
 
-Print JSON-formatted EXIF data for arguments.
+Print JSON-formatted EXIF data for files passed via arguments.
 
 ### html-strip-attrs
 
