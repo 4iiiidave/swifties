@@ -39,7 +39,7 @@ Date in `YYYY-MM-DD`, optional first argument as separator
 
 ### exif
 
-Print JSON-formatted EXIF data for arguments.
+Print JSON-formatted EXIF data for files passed via arguments.
 
 ### html-strip-attrs
 
