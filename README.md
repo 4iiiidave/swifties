@@ -3,7 +3,7 @@
 Simple CLI utilities written in [Swift](https://www.swift.org).
 
 ```
-./clean.sh  #
+./clean.sh  # remove all build intermediates & caches
 ./build.sh  #
 ./deploy.sh # copy artifacts to ~/bin
 ```
