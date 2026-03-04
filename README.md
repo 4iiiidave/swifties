@@ -23,10 +23,6 @@ Capitalize the first letter of each sentence read from `stdin`.
 
 `abc-def-ghi`.
 
-### case-upper
-
-Upper-case `stdin` or command-line arguments.
-
 ### csv-to-json
 
 Read CSV from `stdin`, print JSON to `stdout`.
@@ -37,13 +33,17 @@ Built on top of [SwiftCSV](https://github.com/swiftcsv/SwiftCSV).
 
 Print current date in [ISO8601](https://www.iso.org/iso-8601-date-and-time-format.html) format
 
+### date-mod
+
+Modify a date (default: `now`) by a number of seconds, minutes, hours, days, or weeks.
+
 ### date-ymd
 
 Date in `YYYY-MM-DD`, optional first argument as separator
 
 ### exif
 
-Print JSON-formatted EXIF data for arguments.
+Print JSON-formatted EXIF data for files passed via arguments.
 
 ### html-strip-attrs
 
@@ -83,5 +83,5 @@ Reverse a `JSON` array read from `stdin`.
 
 ## TODO
 
-* date-add
+* date-ymd: option to read date from `stdin`
 * string-trim
